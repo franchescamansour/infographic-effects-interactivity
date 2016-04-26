@@ -36,12 +36,11 @@ html {
   border: 2px dashed white;
 }
 
+/*BANNER*/
 .alcohol {
   transform-origin: center center;
   transition: all 250ms linear;
 }
-
-//*BANNER*/
 
 .alcohol:hover {
   transform: scale(1.1);
