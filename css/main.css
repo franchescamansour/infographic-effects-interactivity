@@ -1,0 +1,94 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+
+  background-color: #0d526a;
+  margin: 0;
+  padding: 0;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.burp {
+  border: 2px dashed white;
+}
+
+.calories {
+  border: 2px dashed white;
+}
+
+.purefat {
+  border: 2px dashed white;
+}
+
+.bestdrinks {
+  border: 2px dashed white;
+}
+
+.alcohol {
+  transform-origin: center center;
+  transition: all 250ms linear;
+}
+
+//*BANNER*/
+
+.alcohol:hover {
+  transform: scale(1.1);
+}
+
+.and {
+  transform: rotate(0);
+  transform-origin: 503px 61px;
+  transition: all .5s linear;
+}
+
+.and:hover {
+  transform: rotate(360deg);
+}
+
+.weightgain {
+  transform-origin: center center;
+  transition: all 250ms linear;
+}
+
+.weightgain:hover {
+  transform: scale(1.1);
+}
+
+/*BURP BUBBLE*/
+
+.bubbleburp {
+  opacity: 0;
+  transition: all 1s ease-in;
+}
+
+.js-bubble-animate {
+  opacity: 1;
+  animation: bubbleburp-jiggle 1s linear;
+}
+
+@keyframes bubbleburp-jiggle {
+  0% {
+    transform: rotate(0);
+  }
+  33% {
+    transform: rotate(15deg);
+  }
+  66% {
+    transform: rotate(-15deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
