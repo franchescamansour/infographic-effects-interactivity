@@ -10,3 +10,6 @@ $bubbleburp.waypoint(function (){
 $howmany.on('click', function () {
   $fooditems.toggleClass('showbox');
 });
+
+
+
