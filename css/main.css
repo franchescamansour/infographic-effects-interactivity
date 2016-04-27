@@ -104,6 +104,16 @@ html {
   transition: all .5s;
 }
 
-/*Pure Fat*/
+/*Best Drinks*/
+.cupdrink {
+  transform-origin: center center;
+  animation: spin 500ms alternate infinite;
+}
 
+@keyframes spin {
+
+  0% { transform: rotate(-2deg); }
+
+  100% { transform: rotate(2deg); }
+}
 
