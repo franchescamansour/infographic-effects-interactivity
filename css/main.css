@@ -36,7 +36,8 @@ html {
   border: 2px dashed white;
 }
 
-/*BANNER*/
+/* BANNER */
+
 .alcohol {
   transform-origin: center center;
   transition: all 250ms linear;
@@ -65,7 +66,7 @@ html {
   transform: scale(1.1);
 }
 
-/*BURP BUBBLE*/
+/* BURP BUBBLE */
 
 .bubbleburp {
   opacity: 0;
@@ -78,21 +79,25 @@ html {
 }
 
 @keyframes bubbleburp-jiggle {
+
   0% {
     transform: rotate(0);
   }
+
   33% {
     transform: rotate(15deg);
   }
+
   66% {
     transform: rotate(-15deg);
   }
+
   100% {
     transform: rotate(0deg);
   }
 }
 
-/*How many calories*/
+/* How many calories */
 
 .fooditems {
   opacity: 0;
@@ -104,7 +109,8 @@ html {
   transition: all .5s;
 }
 
-/*Best Drinks*/
+/* Best Drinks */
+
 .cupdrink {
   transform-origin: center center;
   animation: spin 500ms alternate infinite;
@@ -116,4 +122,3 @@ html {
 
   100% { transform: rotate(2deg); }
 }
-
